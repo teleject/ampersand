@@ -76,7 +76,7 @@ Would need to split up the options to allow for finding and replacing specific c
 
 E.g., maybe something like this:
 
-$("#main :header").ampersand( char : "&" ); // targets all HTML headers for ampersand upgrade
-$("p").ampersand( char : " -- " ); // targets all paragraphs for double dash replacements 
+	$("#main :header").ampersand( char : "&" ); // targets all HTML headers for ampersand upgrade
+	$("p").ampersand( char : " -- " ); // targets all paragraphs for double dash replacements 
 
 
